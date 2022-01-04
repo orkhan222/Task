@@ -40,14 +40,8 @@
 # if x>0 and y>0:
 #     print(max(x,y))
 
-# 5. 1-den 100e qeder ededlerin icinde 7e bolunenlerin cemini hesablayin funksiya yazmaq.
-# a = int(input('7e bolunen eded: '))
-# mylist = 0
-for i in range(1,101):
-    if i%7==0:
-        print('7e bolunen ededler')
-    else:
-        print('eror')
+
+
 
         
 # a = [1,2,46,85,96]
@@ -70,3 +64,24 @@ for i in range(1,101):
 #         continue
 #     index +=1
 # print(numbers)
+
+
+
+# 1. Tam ədədi verilmişdir. Onun cüt olduğunu müəyyən edin.
+
+# sayi = int(input('sayi: '))
+# if sayi>0:
+#     if sayi % 2 ==0:
+#         print('cut ededdir.')
+#     else:
+#         print('tek edidir.')
+# else:
+#     print('eror')
+    
+    
+# 2. x, y həqiqi ədədlər verilmişdir. Bu ədədlərin ən böyüyünü (maksimal olanı) tapın.
+
+x= input('x: ')
+y= input('y: ')
+
+print(max(x,y))
